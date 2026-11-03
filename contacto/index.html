@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Estancia La Naviera</title>
+<meta name="description" content="Planifica tu viaje a La Naviera: consulta disponibilidad y tarifas de estadías a medida en el Lago General Carrera.">
+<meta property="og:title" content="Contacto | Estancia La Naviera">
+<meta property="og:description" content="Planifica tu viaje a La Naviera: consulta disponibilidad y tarifas de estadías a medida en el Lago General Carrera.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://lanaviera.cl/images/inicio-hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="">
+<header class="site">
+  <a class="brand" href="../">La Naviera<sup>®</sup></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menú</button>
+  <nav id="nav" aria-label="Principal"><ul><li><a href="../">Inicio</a></li><li><a href="../nuestra-historia/">Nuestra Historia</a></li><li><a href="../la-naviera-hoy/">La Naviera Hoy</a></li><li><a href="../visitanos/">Visítanos</a></li><li><a href="../experiencias/">Experiencias</a></li><li><a href="../galeria/">Galería</a></li><li><a href="../contacto/" aria-current="page">Contacto</a></li></ul></nav>
+</header>
+<main>
+
+<section class="page-head" style="--bg:url(../images/contacto/cabecera.jpg)">
+  <h1>Contacto</h1>
+  <p>Planifica tu experiencia en La Naviera</p>
+</section>
+<section class="wrap narrow">
+  <p class="lead">Cada estadía es diseñada a medida. Completa el formulario para conocer disponibilidad, tarifas y comenzar a planificar tu viaje.</p>
+  <form class="contact" action="https://formspree.io/f/REEMPLAZAR_ID" method="post">
+    <div class="row">
+      <label>Nombre <span aria-hidden="true">*</span><input name="nombre" required autocomplete="given-name"></label>
+      <label>Apellido <span aria-hidden="true">*</span><input name="apellido" required autocomplete="family-name"></label>
+    </div>
+    <label>Email <span aria-hidden="true">*</span><input type="email" name="email" required autocomplete="email"></label>
+    <label>Elige tu fecha de viaje<input type="date" name="fecha_de_viaje"></label>
+    <label>Escribe tu mensaje <span aria-hidden="true">*</span><textarea name="mensaje" rows="6" required></textarea></label>
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+    <input type="hidden" name="_subject" value="Consulta desde lanaviera.cl">
+    <button class="btn" type="submit">Enviar</button>
+  </form>
+</section>
+
+</main>
+<footer class="site">
+  <p class="foot-name">Estancia La Naviera</p>
+  <p>Ribera sur del Lago General Carrera, Región de Aysén, Chile</p>
+  <p><a href="https://www.instagram.com/estancia.lanaviera/" rel="noopener">@estancia.lanaviera</a> &nbsp;·&nbsp; <a href="https://www.google.com/maps/place/Estancia+La+Naviera/@-46.8469447,-72.7045841,15z/data=!3m1!4b1!4m6!3m5!1s0xae4b30122d4ef925:0x370ae4fd4bd5f551!8m2!3d-46.8469448!4d-72.7045841!16s%2Fg%2F11vymwhdpd?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D" rel="noopener">Ver en Google Maps</a></p>
+</footer>
+<dialog id="lightbox"><button class="lb-close" aria-label="Cerrar">&times;</button><img alt=""></dialog>
+<script src="../assets/site.js"></script>
+</body>
+</html>
